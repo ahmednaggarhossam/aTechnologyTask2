@@ -1,0 +1,74 @@
+<div class="client-details">
+    <!-- Right Handside of Client Details Part -->
+    <div class="col-md-6">
+        <div class="mx-3 mt-3">
+            <h2 class=" mb-2">تفاصيل العميل</h2>
+        <div class="d-flex my-2">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/profile.jpeg" alt="">
+            </div>
+            <div class="client-name me-3 d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <h5 class="mb-1">هيثم محمد</h5>
+                        <p>سورتيك أي تكنولوجي</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="business">
+            <span class="deal">
+                الصفقة
+            </span>
+            <div class="deal-details btn">
+                <i class="fa-solid fa-file-contract"></i>
+                <span>صفقة رقم #1589</span>
+            </div>
+            <span class="deal">
+                الهاتف
+            </span>
+            <div class="deal-details btn">
+                <i class="fa-solid fa-phone"></i>
+                <span>01126787966</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Right Handside of Client Details Part -->
+
+
+
+    <!-- Left Handside of Client Details Part -->
+    <div class="col-md-6 d-flex align-items-center">
+        <div class="receipt-number ms-3">
+            <div class="receipt-number-details text-white">
+                <div class="d-flex align-items-center p-2">
+                    <div class="d-flex align-items-center justify-content-around w-100 mt-2 mb-0">
+                        <h3 class="d-flex align-items-center">
+                            <div class="">
+                                <i class="fa-solid fa-clipboard ms-1"></i>
+                                <span>رقم الفاتورة</span>
+                            </div>
+                        </h3>
+                        <div class="d-flex align-items-center">
+                            <div class="copy">
+                                <span id="copy-text">No_105945</span>
+                                <i (click)="copyText()" class="fa-regular fa-copy me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <p class="my-1">المنشئ : هيثم محمد - 28 مارس , 2023</p>
+                    <p class="my-1">نوع الفاتورة : فاتورة تقسيط <i class="fa-solid fa-magnifying-glass-dollar"></i></p>
+                </div>
+            </div>
+            <div class="qr-code d-flex justify-content-center align-items-center">
+                <qrcode [qrdata]="'My QR COde'" [allowEmptyString]="true" [width]="85" ></qrcode>
+
+            </div>
+        </div>
+    </div>
+    <!-- Left Handside of Client Details Part -->
+
+</div>

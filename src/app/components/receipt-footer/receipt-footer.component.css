@@ -1,0 +1,31 @@
+.btn{
+    border-radius: 6px;
+    border: 0.75px solid #EEF2EF;
+    background-color: #FAFAFA;
+}
+.footer{
+    background-color: #FFF;
+    border-radius: 0px 0px 12px 12px;
+}
+.btn-share{
+    border-radius: 6px;
+    border: 0.75px solid #0771DE;
+    background-color: #0771DE;
+    color: #FCFCFC;
+    margin-left: 4px;
+}
+.footer span, i{
+    font-size: 12px;
+    margin: 0px 5px;
+}
+.refund-btn, .btn-print{
+    color: #898995;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Your CSS styles for mobile view here */
+    .footer span, i{
+        font-size: 10px;
+        margin: 0px 3px;
+    }
+}

@@ -1,0 +1,22 @@
+.receipt-header i, .receipt-header span{
+    font-size: 14px;
+}
+.receipt-header .fa-newspaper{
+    color: #FFF;
+    background-color: #0771DE;
+    padding: 6px;
+    border-radius: 4.5px;
+    margin-left: 6px;
+}
+.receipt-header span{
+    font-weight: 600;
+    color: #1C1C28;
+}
+.fa-xmark{
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 3.75px;
+}
+.receipt-header{
+    background-color: #FFF;
+}

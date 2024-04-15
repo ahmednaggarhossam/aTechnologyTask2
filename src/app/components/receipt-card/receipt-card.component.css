@@ -1,0 +1,16 @@
+.receipt-card{
+    margin: auto;
+    background-color: #F1F3F4;
+    margin: 45px 0px;
+    width: 663px;
+    height: 671px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    /* Your CSS styles for mobile view here */
+    .receipt-card{
+        width: 370px;
+        height: auto;
+    }
+}

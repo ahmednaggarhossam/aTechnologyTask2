@@ -1,0 +1,67 @@
+.product_info{
+    width: 619px;
+    height: 219px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin: auto;
+}
+.product_info h4{
+    font-weight: 500;
+    font-size: 14px;
+}
+.table{
+    width: 589px;
+    text-align: center;
+}
+thead tr th{
+    font-size: 10.5px;
+    color: #83899F;
+    font-weight: 400;
+}
+.table-secondary{
+    background-color: #F8F8F9 !important;
+    height: 32px;
+}
+td{
+    font-size: 12px;
+}
+img{
+    width: 20.12px;
+}
+.p_name{
+    font-size: 8px;
+    font-weight: 500;
+}
+.p_id ,.p_tax{
+    font-size: 9px;
+}
+.p_id{
+    color: #83899F;
+    margin-left: 5px;
+}
+.p_tax{
+    font-weight: 8px;
+}
+.fa-circle-minus{
+    color: #FF4B55;
+}
+tbody tr{
+    height: 42px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Your CSS styles for mobile view here */
+    .my-table {
+        overflow-x: scroll;
+        display: block; /* Important for mobile browsers */
+    }
+    .product_info{
+        width: 400px;
+        height: auto;
+    }
+    .table{
+        width: 430px;
+        text-align: center;
+    }
+}
